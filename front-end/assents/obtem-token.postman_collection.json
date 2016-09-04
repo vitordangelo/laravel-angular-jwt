@@ -1,0 +1,48 @@
+{
+	"id": "a80cb0ec-fe7c-174a-946b-063928ad2826",
+	"name": "obtem-token",
+	"description": "",
+	"order": [
+		"5e5602de-fea1-f058-174c-2cbe14b90a84"
+	],
+	"folders": [],
+	"timestamp": 1473005483798,
+	"owner": "666044",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "5e5602de-fea1-f058-174c-2cbe14b90a84",
+			"headers": "username: vitordangelo@gmail.com\npassword: 123456\nclient_id: 44572a13f62beb42813182818f4ea81e\nclient_secret: 354117446582b13c7ff7316977ef5884807569d5\ngrant_type: password\n",
+			"url": "http://localhost:9090/api/auth/login",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "a80cb0ec-fe7c-174a-946b-063928ad2826",
+			"data": [
+				{
+					"key": "email",
+					"value": "vitordangelo@gmail.com",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://localhost:9090/api/auth/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1473005483797,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
